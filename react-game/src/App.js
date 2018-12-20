@@ -1,9 +1,20 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import img from "./img.json";
 import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <Router basename={process.env.PUBLIC_URL}>
+      <div>
+        <Route exact path="/" component={Home} />
+       </div>
+    </Router>
+  );
+}
 
 class App extends Component {
   state = {
