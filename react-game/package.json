@@ -2,8 +2,9 @@
   "name": "react-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hdrattlo88.github.io/react-game",
+  "homepage": "http://hdrattlo88.github.io/react-game/react-game",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router": "^4.3.1",
